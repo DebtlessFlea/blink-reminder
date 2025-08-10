@@ -2,7 +2,7 @@
 > Message Notification 4 by AnthonyRox -- https://freesound.org/s/740423/ -- License: Creative Commons 0
 
 ## 📋 Description
-`blink-reminder` is a simple Python script that reminds you to take a break at regular intervals. It runs quietly in the system tray, plays a short sound as a reminder, and automatically pauses during your sleep hours.
+**blink-reminder** is a simple Python script that reminds you to take a break at regular intervals. It runs quietly in the system tray, plays a short sound as a reminder, and automatically pauses during your sleep hours.
 
 ## ❓ How to Use
 
