@@ -16,9 +16,9 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 # === Settings ===
-REMINDER_INTERVAL_MIN = 30
+REMINDER_INTERVAL_MIN = 30 # Plays the sound every X minutes
 SLEEP_HOURS = (23, 7)  # No reminders between 23:00–07:00 
-SOUND_FILE = resource_path("blink.mp3")
+SOUND_FILE = resource_path("blink.mp3") # Change path if needed.
 
 is_paused = False
 
@@ -66,3 +66,4 @@ def setup_tray():
 
 if __name__ == "__main__":
     setup_tray()
+
